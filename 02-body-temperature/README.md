@@ -1,7 +1,7 @@
 # Body Temperature Filter
 
 ## Descripción
-Este proyecto implementa una función en Node.js que consulta una API paginada para obtener registros médicos, filtra los registros según el nombre del doctor y el ID del diagnóstico, y devuelve un array con los valores mínimo y máximo de temperatura corporal (`vitals.body`).
+Este proyecto implementa una función en Node.js que consulta una API paginada para obtener registros médicos, filtra los registros según el nombre del doctor y el ID del diagnóstico, y devuelve un array con los valores mínimo y máximo de temperatura corporal (`vitals.bodyTemperature`).
 
 ## Funcionalidad
 La función `bodyTemperature(doctorName, diagnosticId)` realiza las siguientes acciones:

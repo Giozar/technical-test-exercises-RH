@@ -65,13 +65,3 @@ o
 ```bash
 pnpm run dev
 ```
-
-El código incluye un ejemplo de uso con los casos de prueba proporcionados en el problema.
-
-## Estrategia de resolución
-
-1. **Identificar el patrón**: Reconocer que un carácter `>` sin un `<` previo siempre requerirá un reemplazo.
-2. **Simulación directa**: Procesar la cadena de izquierda a derecha, manteniendo el estado del balance actual.
-3. **Verificación de condiciones**: Comprobar que al final del procesamiento se cumplen las condiciones necesarias para considerar la cadena como balanceada.
-
-Esta solución es óptima en términos de complejidad, ya que solo requiere un recorrido lineal de cada cadena para determinar si puede ser balanceada.
