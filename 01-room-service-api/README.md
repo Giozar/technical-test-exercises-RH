@@ -15,12 +15,6 @@ Además, implementa un middleware de autorización personalizado que verifica la
 
 ## Instalación
 
-### Clonar el repositorio
-```bash
-git clone https://github.com/[tu-usuario]/room-service-authorization.git
-cd room-service-authorization
-```
-
 ### Compilar la solución
 ```bash
 dotnet build
@@ -125,14 +119,3 @@ Puedes ejecutar las pruebas con el comando:
 ```bash
 dotnet test
 ```
-
-## Mejoras futuras potenciales
-- Implementar una base de datos persistente
-- Agregar endpoints para actualizar y eliminar habitaciones
-- Mejorar la autenticación (JWT)
-- Agregar documentación de API con Swagger
-- Implementar validación más robusta
-- Configurar CI/CD
-
-## Autor
-[ Manuel Giovanni Cortazar De La Cruz]
